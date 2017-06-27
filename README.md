@@ -5,12 +5,13 @@
 
 - ViewPager+Fragment+ListView 实现具有滑动页面的效果</br></br>
 
-![image](http://a1.qpic.cn/psb?/V10Yjq7s2D3e9b/ZNgobK*oW8.5g8nOGlJvUSv.CS6T7MNvoH.LKCEPjeg!/m/dBgBAAAAAAAAnull&bo=9wHrAgAAAAACBzw!&rf=photolist&t=5/MyMessage2.gif  "MyMessage滑动图片")
+![image](http://wx2.sinaimg.cn/mw690/83023f86ly1fgzuf7pnyrg20dz0krn6j.gif  "MyMessage滑动图片")
 </br></br>
+
 
 - ListView中的Item样式不同</br></br>
 
-![image](http://a2.qpic.cn/psb?/V10Yjq7s2D3e9b/lzAGN6mdz0KK9LM0HTb.oShVd4I0Q9MYVod9sdj6YYE!/m/dHUAAAAAAAAA&ek=1&kp=1&pt=0&bo=.gHmAgAAAAACh7w!&tm=1498550400&sce=60-4-3&rf=0-0/listview.gif "listview图片")
+![image](http://wx3.sinaimg.cn/mw690/83023f86ly1fgzufah9jzg20e20kmhdu.gif "listview图片")
 </br></br>
 
 - 登录注册等界面</br></br>
