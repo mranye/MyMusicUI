@@ -16,8 +16,9 @@
 
 - 登录注册等界面</br></br>
 
-![image](http://a1.qpic.cn/psb?/V10Yjq7s2D3e9b/5EfY9zldPw.vP3lypxCJQyEGwOF*tYX6TxgQJLOH9eI!/m/dBgBAAAAAAAAnull&bo=AgL2AgAAAAADB9Y!&rf=photolist&t=5/login1.png  "登录界面")
-![image](http://a3.qpic.cn/psb?/V10Yjq7s2D3e9b/AvaV9S*WlaCYc7fI8C8sjOQPo3G5N0udVy1WHtIR*.Q!/m/dB4BAAAAAAAAnull&bo=AQL2AgAAAAADB9U!&rf=photolist&t=5/regist1.png  "注册界面")
+![image](http://wx3.sinaimg.cn/mw690/83023f86ly1fgzupnv9b4j20eb0l1jti.jpg  "登录或注册界面")
+![image](http://wx1.sinaimg.cn/mw690/83023f86ly1fgzupnd066j20ea0l2jrv.jpg  "登录界面")
+![image](http://wx1.sinaimg.cn/mw690/83023f86ly1fgzupp9z9lj20e90l2aaw.jpg  "注册界面")
 </br></br>
 
 
