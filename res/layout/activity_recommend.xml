@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecommendActivity" 
+     android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/recommend_ll_tab"
+        android:layout_height="0dp"  
+        android:layout_weight="1"  
+        android:layout_width="match_parent"
+        android:gravity="center">
+        
+        <TextView 
+            android:id="@+id/recommend_tv_recommend"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_recommend"/>
+        
+        <TextView 
+            android:id="@+id/recommend_tv_gedan"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_gedan"/>
+        
+        <TextView 
+            android:id="@+id/recommend_tv_radio"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_radio"/>
+        
+        <TextView 
+            android:id="@+id/recommend_tv_paihang"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_paihang"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout   
+        android:id="@+id/recommend_ll_cursor"  
+        android:layout_width="match_parent"  
+        android:background="#FFFFFF"  
+        android:orientation="horizontal"  
+        android:layout_height="2dp">  
+        
+        <ImageView  
+            android:id="@+id/recommend_iv_cursor"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent">  
+        </ImageView>  
+    </LinearLayout>  
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/recommend_vp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_width="match_parent">
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

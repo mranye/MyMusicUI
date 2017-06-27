@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.mymusicui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/MyMusicActionBarTheme" >
+        <activity
+            android:name="com.android.mymusicui.activity.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.WelcomeActivity"
+            android:theme="@style/NoAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.LoginActivity"
+            android:label="@string/actionbar_login_phone"
+            android:logo="@drawable/a57fan" >
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.RegistActivity"
+            android:label="@string/actionbar_regist_phone"
+            android:logo="@drawable/a57fan" >
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.LoginOrRegistActivity"
+            android:theme="@style/NoAppTheme" >
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.RegistNextActivity"
+            android:label="@string/actionbar_regist_phone_next"
+            android:logo="@drawable/a57fan" >
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.ForgetPwdActivity"
+            android:label="@string/actionbar_login_forget"
+            android:logo="@drawable/a57fan" >
+        </activity>
+        
+        <activity
+            android:name="com.android.mymusicui.activity.MyMessageActivity"
+            android:label="@string/actionbar_mymessage" 
+            android:logo="@drawable/a57fan">
+        </activity>
+        <activity
+            android:name="com.android.mymusicui.activity.RecommendActivity" 
+            android:label="@string/actionbar_recommend"
+            android:logo="@drawable/a57fan">
+        </activity>
+    </application>
+
+</manifest>

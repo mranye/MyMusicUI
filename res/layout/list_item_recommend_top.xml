@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/recommend_top_iv1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#E40000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/recommend_lv_item_top_iv_fm"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:src="@drawable/t_recomment_fm" />
+
+            <TextView
+                android:id="@+id/recommend_lv_item_top_tv_fm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/tv_recommend_fm"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/recommend_lv_item_top_iv_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/t_recommend_daily" />
+
+            <TextView
+                android:id="@+id/recommend_lv_item_top_tv_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/tv_recommend_daily"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+             android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/recommend_lv_item_top_iv_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:src="@drawable/t_recommend_rank" />
+
+            <TextView
+                android:id="@+id/recommend_lv_item_top_tv_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/tv_recommend_rank"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

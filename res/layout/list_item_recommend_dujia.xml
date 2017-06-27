@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/recommend_ll_dujia_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="18dp"
+            android:background="#E40000" />
+
+        <TextView
+            android:id="@+id/recommend_tv_dujia_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/tv_recommend_dujia_title" />
+
+        <ImageView
+            android:id="@+id/recommend_iv_dujia_more"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/a7_" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/recommend_ll_dujia1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/recommend_iv_dujia1"
+                    android:layout_width="156dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ahm" />
+
+                <TextView
+                    android:id="@+id/recommend_tv_dujia1"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_margin="6dp"
+                    android:text="@string/tv_recommend_dujia1"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recommend_ll_dujia2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/recommend_iv_dujia2"
+                    android:layout_width="156dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ahm" />
+
+                <TextView
+                    android:id="@+id/recommend_tv_dujia2"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_margin="6dp"
+                    android:text="@string/tv_recommend_dujia2"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/recommend_ll_dujia3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/recommend_iv_dujia3"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/ahn" />
+
+            <TextView
+                android:id="@+id/recommend_tv_dujia3"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_margin="6dp"
+                android:text="@string/tv_recommend_dujia3"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+    <TextView
+        android:id="@+id/regist_next_tv"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="你会收到一条带验证码的短信，请输入验证码："
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/regist_next_linear_yanzheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/regist_next_iv_yanzheng"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a3b" />
+
+            <EditText
+                android:id="@+id/login_et_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="请输入验证码"
+                android:textColorHint="#E0E0E0" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/regist_next_tv_yanzheng_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重新获取"
+                android:textColor="@color/color_checked"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="3dp"
+            android:background="#E0E0E0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/shape_button_login_red"
+        android:layout_marginTop="30dp"
+        android:padding="3dip"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

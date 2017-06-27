@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMessageActivity"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/mymessage_ll_tab"
+        android:layout_height="0dp"  
+        android:layout_weight="1"  
+        android:layout_width="match_parent"
+        android:gravity="center">
+        
+        <TextView 
+            android:id="@+id/mymessage_tv_sixin"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_sixin"/>
+        
+        <TextView 
+            android:id="@+id/mymessage_tv_pinglun"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_pinglun"/>
+        
+        <TextView 
+            android:id="@+id/mymessage_tv_atme"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_atme"/>
+        
+        <TextView 
+            android:id="@+id/mymessage_tv_sysnotice"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_sysnotice"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout   
+        android:id="@+id/mymessage_ll_cursor"  
+        android:layout_width="match_parent"  
+        android:background="#FFFFFF"  
+        android:orientation="horizontal"  
+        android:layout_height="2dp">  
+        
+        <ImageView  
+            android:id="@+id/mymessage_iv_cursor"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent">  
+        </ImageView>  
+    </LinearLayout>  
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mymessage_vp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_width="match_parent">
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
